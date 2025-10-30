@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "create_source",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "cluster_analysis.py",
+            "console": "integratedTerminal",
+            "args": [
+            "--sales", "sources/Pricing Performance YTD vs LY - Aug_Last Invoiced Price_Split.xlsx",
+            "--mdm", "sources/locationmdm_export_20250912.xlsx",
+            "--LP", "sources/ActivePricelists_20250912.xlsx",
+            "--so", "sources/so_20250912.xlsx",
+            "--zcpr", "sources/ZCPR_20250912.xlsx",
+            "--stdcosts", "sources/stdCosts_20250912.xlsx",
+            "--sapcosts", "sources/sap_costs_20250912.xlsx"
+            ]
+        }
+    ]
+}
